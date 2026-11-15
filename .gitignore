@@ -1,0 +1,73 @@
+# ==============================================================================
+# Git Ignore - PaddleOCR ANPR Benchmark Project
+# ==============================================================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Large Video & Media files (sample/benchmark videos)
+*.mp4
+*.mp4*
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+sample_videos/
+
+# Benchmark outputs & generated reports
+anpr_benchmark_output/
+*.xlsx
+*.xls
+*.csv
+
+# Pretrained models, weights, & PaddleX caches
+models/
+.paddlex/
+*.pdparams
+*.pdopt
+*.pdmodel
+*.pdiparams
+*.pdiparams.info
+*.onnx
+*.tar
+*.tar.gz
+*.zip
+
+# Temporary files & logs
+*.log
+tmp/
+temp/
+*.tmp
+plate_thumb_*.jpg
+plate_all_*.jpg
+plate_uniq_*.jpg
+
+# IDEs & Text Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
