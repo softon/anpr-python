@@ -57,6 +57,9 @@ temp/
 plate_thumb_*.jpg
 plate_all_*.jpg
 plate_uniq_*.jpg
+veh_all_*.jpg
+veh_uniq_*.jpg
+scratch/
 
 # IDEs & Text Editors
 .vscode/
